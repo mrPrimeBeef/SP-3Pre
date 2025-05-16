@@ -4,10 +4,10 @@ import styles from "./Home.module.css";
 export default function Home() {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    "src/assets/bgimg.png",
-    "src/assets/bgimg2.png",
-    "src/assets/bgimg3.png",
-    "src/assets/bgimg4.png",
+    "/assets/bgimg.png",
+    "/assets/bgimg2.png",
+    "/assets/bgimg3.png",
+    "/assets/bgimg4.png",
   ];
 
   useEffect(() => {
@@ -19,8 +19,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={styles.slideshow}>,
-    <div className={styles.overlay}>
+    <div className={styles.slideshow}>
+      ,
+      <div className={styles.overlay}>
         <h2>Image art for the Quizz</h2>
       </div>
       {images.map((img, index) => (
