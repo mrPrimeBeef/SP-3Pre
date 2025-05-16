@@ -1,0 +1,134 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  color: var(--text-color);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.overview {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overview h2 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.overview p {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.endpointCard {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.endpointHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.method {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.get {
+  background-color: #61affe;
+}
+.post {
+  background-color: #49cc90;
+}
+.put {
+  background-color: #fca130;
+}
+.delete {
+  background-color: #f93e3e;
+}
+.update {
+  background-color: #50e3c2;
+}
+
+.endpointPath {
+  font-family: monospace;
+  font-size: 16px;
+  color: var(--text-color);
+  padding: 5px 10px;
+  background-color: var(--bg-primary);
+  border-radius: 4px;
+}
+
+.description {
+  color: var(--text-color);
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.parameters {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+}
+
+.parameters h3,
+.response h3 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.parameter {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-left: 3px solid var(--border-color);
+}
+
+.parameterName {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.parameterType {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.parameterDesc {
+  margin-top: 5px;
+  color: var(--text-color);
+}
+
+.response {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+}
+
+.response code {
+  display: block;
+  padding: 10px;
+  background-color: var(--bg-primary);
+  border-radius: 4px;
+  font-family: monospace;
+  color: var(--text-color);
+  margin-top: 10px;
+}
