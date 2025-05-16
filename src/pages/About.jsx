@@ -4,7 +4,7 @@ export default function About() {
     <div className={styles.container}>
       <h2>About</h2>
 
-      <img className={styles.logoImg} src="src\assets\logo.jpg" alt="logo" />
+      <img className={styles.logoImg} src="assets\logo.jpg" alt="logo" />
 
       <div className={styles.logoText}>
         <p>
@@ -37,7 +37,7 @@ export default function About() {
         <h2>Fast mock-up</h2>
         <img
           className={styles.mockup}
-          src="src/assets/SienceQuiz.png"
+          src="assets/SienceQuiz.png"
           alt="logo"
         />
       </div>
