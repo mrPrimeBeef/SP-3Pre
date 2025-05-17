@@ -132,3 +132,11 @@
   color: var(--text-color);
   margin-top: 10px;
 }
+@media (max-width: 768px) {
+  .endpointPath,
+  .response code {
+    word-break: break-all;
+  max-width: 100%;
+  display: inline-block;
+  }
+}

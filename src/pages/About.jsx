@@ -24,12 +24,12 @@ export default function About() {
         </p>
         <a href="https://github.com/mrPrimeBeef/TheQuizzAPI">
           <p className={styles.repo}>
-            https://github.com/mrPrimeBeef/TheQuizzAPI
+            github.com/mrPrimeBeef/TheQuizzAPI
           </p>
         </a>
         <a href="https://thequizzapi.sem2.dk/api/routes">
           <p className={styles.repo}>
-            https://thequizzapi.sem2.dk/api/routes
+            thequizzapi.sem2.dk/api/routes
           </p>
         </a>
       </div>

@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000); // Change image every 3 seconds
+    }, 5000);
 
     return () => clearInterval(timer);
   }, []);
